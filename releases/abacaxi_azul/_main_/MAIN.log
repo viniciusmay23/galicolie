@@ -1,0 +1,43 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F45K22 -DL -O11111114 -fo20 -N"C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\MAIN.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.9\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.8\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.7\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.6\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.5\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\release_1.0\rev1_anlog-keyboard\" -SP"C:\Users\vinicius_dark\Desktop\projeto_final\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT800\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT810\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT812\Uses\" -SP"C:\Users\vinicius_dark\Desktop\body_health_br\config__fuses_fw\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT800\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT810\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT812\Uses\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_1.0\rev1_anlog-keyboard\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.5\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.6\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.7\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.8\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v1.9\" -IP"C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\" "MAIN.c" "FUSES.c" "LCD.C" "SCREEN_APP.C" "SCREEN_MAIN.C" "screen_frequencys.c" "screen_powers.c" "screen_bombs.c" "screen_temps.c" "screen_currents.c" "screen_voltages.c" "keyboard.c" "i2c_protocol.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_D.mcl" "__Lib_EEPROM_256.mcl" "__Lib_FLASH_w64_e64.mcl" "__Lib_PWM_c21.mcl" "__Lib_PWM_b5d1e2.mcl" "__Lib_SPI_c345d014.mcl" "__Lib_UART_c67d67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_TFT.mcl" "__Lib_TFT_Defs.mcl" "__Lib_TFT_16bit.mcl" "__Lib_TFT_16bit_Defs.mcl" "__Lib_TouchPanel_TFT.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+hint: 16	1354	 warning: "/*" within comment     /*###############################################################################################*/  ***********************************************************************************************	C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\MAIN.c
+hint: 24	1354	 warning: "/*" within comment     //***************************************** PRAGMAS ***********************************************/  **********************************************************************************************	C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\MAIN.c
+diagnostics: 0	122	Compilation Started	lcd.h
+diagnostics: 88	123	Compiled Successfully	MAIN.c
+diagnostics: 0	122	Compilation Started	FUSES.c
+diagnostics: 55	123	Compiled Successfully	FUSES.c
+diagnostics: 0	122	Compilation Started	lcd.h
+diagnostics: 23	123	Compiled Successfully	LCD.C
+diagnostics: 0	122	Compilation Started	SCREEN_APP.C
+diagnostics: 42	123	Compiled Successfully	SCREEN_APP.C
+hint: 16	1354	 warning: "/*" within comment     /*###############################################################################################*/  ***********************************************************************************************	C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\SCREEN_MAIN.C
+hint: 56	1354	 warning: The macro is redefined     #define DOWN 0x27     previously macro "DOWN" defined as: #define DOWN  PORTC.RC1 	C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\SCREEN_MAIN.C
+diagnostics: 0	122	Compilation Started	screen_main.h
+warning: 74	1504	Initialization of extern object 'analog_read'	SCREEN_MAIN.C
+warning: 75	1504	Initialization of extern object 'key'	SCREEN_MAIN.C
+diagnostics: 154	123	Compiled Successfully	SCREEN_MAIN.C
+diagnostics: 0	122	Compilation Started	screen_frequencys.h
+diagnostics: 238	123	Compiled Successfully	screen_frequencys.c
+diagnostics: 0	122	Compilation Started	screen_powers.h
+diagnostics: 129	123	Compiled Successfully	screen_powers.c
+diagnostics: 0	122	Compilation Started	screen_bombs.h
+diagnostics: 116	123	Compiled Successfully	screen_bombs.c
+diagnostics: 0	122	Compilation Started	screen_temps.h
+diagnostics: 126	123	Compiled Successfully	screen_temps.c
+hint: 15	1354	 warning: "/*" within comment	C:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\screen_currents.c
+hint: 160	1354	 warning: "/*" within comment	#endifC:\Users\vinicius_dark\Desktop\projeto_final\release_v2.0\screen_currents.c
+diagnostics: 0	122	Compilation Started	screen_currents.h
+diagnostics: 203	123	Compiled Successfully	screen_currents.c
+diagnostics: 0	122	Compilation Started	screen_voltages.h
+diagnostics: 211	123	Compiled Successfully	screen_voltages.c
+diagnostics: 0	122	Compilation Started	keyboard.h
+diagnostics: 42	123	Compiled Successfully	keyboard.c
+diagnostics: 0	122	Compilation Started	i2c_protocol.h
+diagnostics: 274	123	Compiled Successfully	i2c_protocol.c
+diagnostics: 0	127	All files Compiled in 1077 ms	 
+hint: 0	1144	Used RAM (bytes): 689 (45%)  Free RAM (bytes): 826 (55%)	Used RAM (bytes): 689 (45%)  Free RAM (bytes): 826 (55%)
+hint: 0	1144	Used ROM (bytes): 9202 (28%)  Free ROM (bytes): 23566 (72%)	Used ROM (bytes): 9202 (28%)  Free ROM (bytes): 23566 (72%)
+diagnostics: 0	125	Project Linked Successfully	MAIN.mcppi
+diagnostics: 0	128	Linked in 437 ms	 
+diagnostics: 0	129	Project 'MAIN.mcppi' completed: 1654 ms	 
+diagnostics: 0	103	Finished successfully: 25 fev 2017, 18:42:10	MAIN.mcppi
