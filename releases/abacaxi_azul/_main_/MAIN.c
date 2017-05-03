@@ -18,12 +18,14 @@
 
 
 //******************************************* P.S *************************************************/
-/*learn about my self firmware! haha =)
+/*learn about my self firmware! haha =)*/
 
 
 
 //***************************************** PRAGMAS ***********************************************/
 //_________________________________________________________________________________________________
+
+
 
 
 
@@ -35,6 +37,8 @@
  #include "FUSES.H"                                            //   hardware MCU configuration    //
  #include "keyboard.h"                                         //   keyboard interface aux HDM    //
 //_________________________________________________________________________________________________
+
+
 
 
 
@@ -61,7 +65,7 @@
 //*********************************** PROTOTYPE FUNCTIONS *****************************************/
 void ConfigMCU   ();                       //   based on FUSES.C       -->  configure HW          // 
 void ClearLcd    ();                       //   based on LCD.C         -->  lcd smart clean       // 
-void Screen_App  ();                       //   based on SCREEN_APP.C  -->                        //
+void Screen_App  ();                       //   based on SCREEN_APP.C  -->  package presentation  //
 void Screen_Main ();                       //   based on SCREEN_MAIN.C -->  start states machine  //
 //_________________________________________________________________________________________________
 
@@ -77,15 +81,15 @@ void Screen_Main ();                       //   based on SCREEN_MAIN.C -->  star
 
 
 //**************************************** FUNCTIONS *********************************************/
-void main()                               //   this is a main thread                             //
+void main()                              //  this is a main thread                              //
 {
 
  while(TRUE)
  {
   ConfigMCU   ();                        //   configure fuses about p18f45k22 && p18f4550       //                       
   Screen_App  ();                        //   Display the splash screen                         //
-  ClearLcd    ();                        //   cleaning display                                  //
-  Screen_Main ();                        //   call the screen of first state machine            // 
+  ClearLcd    ();                        //   cleaning display (MY SELF FNCTION! SEE IN LCD.C)  //
+  Screen_Main ();                        //   call the screen of first state machine (SCREEN.C) // 
  }//END FUNCTION
 
 }
